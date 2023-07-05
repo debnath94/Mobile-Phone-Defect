@@ -12,7 +12,7 @@ import numpy as np
 
 model = tf.keras.models.load_model("model_mobilenetv2.h1")
 
-labels = ['Good', 'ground_truth_1', 'ground_truth_2', 'Oil', 'Scratch','Stain']
+labels = ['Good', 'ground_truth_1', 'ground_truth_2', 'Oil', 'Scratch', 'Stain']
 
 def preprocess_frame(frame):
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -22,7 +22,7 @@ def preprocess_frame(frame):
     return frame
 
 def main():
-    st.title("Phone Condition Detection")
+    st.title("Mobile Phone Defect Detection")
 
     # Initialize the camera capture
     camera = cv2.VideoCapture(0)
