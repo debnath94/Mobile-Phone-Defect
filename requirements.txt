@@ -1,6 +1,5 @@
-streamlit==1.23.1
-scikit-learn==1.2.2
-keras==2.12.0
-tensorflow==2.12.0
-opencv-python==4.7.0.72
-libGL==4.7.0.72
+streamlit
+scikit-learn
+keras
+tensorflow
+opencv-python
