@@ -3,3 +3,4 @@ scikit-learn
 keras
 tensorflow
 opencv-python
+libGL.so.1
