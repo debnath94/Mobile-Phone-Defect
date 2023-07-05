@@ -21,7 +21,7 @@ max_file_size = 10 * 1024 * 1024  # 10MB
 
 def preprocess_image(image):
     # Resize the image to match the model input shape
-    image = image.resize((100, 100))
+    image = image.resize((224, 224))
     # Convert the image to a NumPy array
     image = np.array(image)
     # Scale the pixel values to the range of 0-1
