@@ -11,7 +11,7 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 
-model = tf.keras.models.load_model("model_mobilenetv2.h1")
+model = tf.keras.models.load_model("mobile_damage.h1")
 
 # Define the labels (replace with your own labels)
 labels = ['Good', 'ground_truth_1', 'ground_truth_2', 'Oil', 'Scratch', 'Stain']
